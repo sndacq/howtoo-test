@@ -1,0 +1,32 @@
+{
+  "name": "javascript-test",
+  "version": "0.0.1",
+  "description": "HowToo js interview test",
+  "main": "index.js",
+  "scripts": {
+    "test:part3": "node ./node_modules/http-server/bin/http-server ./part3/",
+    "start": "webpack-dev-server --mode development"
+  },
+  "author": "JZ",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "expect.js": "^0.3.1",
+    "http-server": "^0.11.1",
+    "mocha": "^5.2.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.2"
+  }
+}
